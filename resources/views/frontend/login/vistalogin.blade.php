@@ -22,10 +22,14 @@
 
     <style>
         html, body {
-            height: 95%;
+            height: 100%;
+            overflow-y: hidden;
         }
         body {
             font-family: 'Roboto', sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 20% 10%;
             background-image: url({{ asset('images/Fondo_carro.png') }});
         }
 

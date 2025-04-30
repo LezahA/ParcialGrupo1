@@ -58,8 +58,8 @@ Route::get('sin-permisos', [ControlController::class,'indexSinPermiso'])->name('
 Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->name('admin.dashboard.index');
 
 // Vehiculos
-Route::get('/xml-vehiculos', [VehiculoController::class, 'mostrarXMLVehiculos']);
+Route::get('/xml-vehiculos', [VehiculoController::class, 'mostrarXMLVehiculos'])->name('vehiculos.index');
 
 //  SOAP
-Route::get('/soap', [SoapController::class, 'showForm']);
+Route::get('/soap', [SoapController::class, 'showForm'])->name('Soap.soap_form');
 Route::post('/soap', [SoapController::class, 'processForm']);

@@ -1,7 +1,6 @@
-
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <a href="#" class="brand-link">
-        <img src="{{ asset('images/Logo_carros.png') }}" alt="Logo" class="brand-image img-circle elevation-3" >
+    <a href="/" class="brand-link">
+        <img src="{{ asset('images/Logo_carros.png') }}" alt="Logo" class="brand-image img-circle elevation-3">
         <span class="brand-text font-weight" style="color: white">PANEL DE CONTROL</span>
     </a>
 
@@ -41,8 +40,26 @@
                  </li>
                 @endcan
 
-
-
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="true">
+                        <li class="nav-item">
+                            <a href="{{ route('vehiculos.index') }}" target="frameprincipal" class="nav-link nav-link">
+                                <i class="nav-icon fas fa-car"></i>
+                                <p>
+                                    Vehículos
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('Soap.soap_form') }}" target="frameprincipal" class="nav-link nav-link">
+                                <i class="nav-icon fas fa-calculator"></i>
+                                <p>
+                                    Calculadora
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
 
             </ul>
         </nav>
@@ -50,9 +67,3 @@
 
     </div>
 </aside>
-
-
-
-
-
-
