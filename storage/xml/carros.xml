@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehiculos>
+    <Vehiculo>
+        <Marca>Toyota</Marca>
+        <Modelo>Corolla 2025</Modelo>
+        <Tipo>Sedán</Tipo>
+        <Motor>2.0L 4 cilindros</Motor>
+        <Precio>22000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Honda</Marca>
+        <Modelo>Civic 2025</Modelo>
+        <Tipo>Sedán</Tipo>
+        <Motor>1.5L Turbo 4 cilindros</Motor>
+        <Precio>23500</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Nissan</Marca>
+        <Modelo>Altima 2025</Modelo>
+        <Tipo>Sedán</Tipo>
+        <Motor>2.5L 4 cilindros</Motor>
+        <Precio>27000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Kia</Marca>
+        <Modelo>Sportage 2025</Modelo>
+        <Tipo>SUV</Tipo>
+        <Motor>2.5L 4 cilindros</Motor>
+        <Precio>28000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Toyota</Marca>
+        <Modelo>RAV4 2025</Modelo>
+        <Tipo>SUV</Tipo>
+        <Motor>2.5L híbrido</Motor>
+        <Precio>31000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Cadillac</Marca>
+        <Modelo>CT5-V Blackwing 2025</Modelo>
+        <Tipo>Sedán Deportivo</Tipo>
+        <Motor>6.2L Supercharged V8 (682 HP)</Motor>
+        <Precio>95000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Volkswagen</Marca>
+        <Modelo>Arteon 2025</Modelo>
+        <Tipo>Fastback</Tipo>
+        <Motor>2.0L TSI 4-cilindros turbo (300 HP)</Motor>
+        <Precio>48000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Lexus</Marca>
+        <Modelo>LS 500h 2025</Modelo>
+        <Tipo>Sedán de Lujo</Tipo>
+        <Motor>3.5L V6 Híbrido (354 HP combinados)</Motor>
+        <Precio>82000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>GLE 580 4MATIC 2025</Modelo>
+        <Tipo>SUV de Lujo</Tipo>
+        <Motor>4.0L V8 biturbo híbrido suave (510 CV)</Motor>
+        <Precio>120000</Precio>
+    </Vehiculo>
+    <Vehiculo>
+        <Marca>Ford</Marca>
+        <Modelo>Maverick Hybrid 2025</Modelo>
+        <Tipo>Camioneta Compacta</Tipo>
+        <Motor>2.5L 4-cilindros híbrido (191 CV combinados)</Motor>
+        <Precio>32000</Precio>
+    </Vehiculo>
+</Vehiculos>
