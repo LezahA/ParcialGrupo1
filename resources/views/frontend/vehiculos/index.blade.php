@@ -17,15 +17,15 @@
         <div class="container">
             <!-- Encabezado -->
             <div class="text-center mb-4">
-                <h1 class="fw-bold display-5">Catálogo de Vehículos 2025</h1>
-                <p class="text-secondary">Consulta todos los vehículos disponibles</p>
+                <h1 class="fw-bold display-5 animate__animated animate__fadeInDown"> 🚗 Catálogo de Vehículos 2025</h1>
+                <p class="text-secondary animate__animated animate__fadeInUp">Consulta todos los vehículos disponibles</p>
             </div>
 
             <!-- Tabla -->
             <div class="card bg-black bg-opacity-75 shadow-lg rounded-4">
                 <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-dark table-hover align-middle mb-0">
+                    <div class="table-responsive animate__animated animate__zoomIn ">
+                        <table class="table table-hover table-striped table-dark align-middle mb-0 rounded-3">
                             <thead class="table-light">
                                 <tr>
                                     <th>Marca</th>
