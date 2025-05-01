@@ -25,15 +25,15 @@
                     <form method="post" action="/soap">
                         @csrf
                         <div class="mb-3">
-                            <label for="num1" class="form-label">Número 1</label>
+                            <label for="num1" class="form-label text-light">Primer numero</label>
                             <input type="number" class="form-control form-control-lg" name="num1" required>
                         </div>
                         <div class="mb-3">
-                            <label for="num2" class="form-label">Número 2</label>
+                            <label for="num2" class="form-label text-light">Segundo Numero</label>
                             <input type="number" class="form-control form-control-lg" name="num2" required>
                         </div>
                         <div class="mb-4">
-                            <label for="operation" class="form-label">Operación</label>
+                            <label for="operation" class="form-label text-light">Operación</label>
                             <select class="form-select form-select-lg" name="operation" required>
                                 <option value="" disabled selected>Selecciona una operación</option>
                                 <option value="Add">Sumar</option>
@@ -61,7 +61,7 @@
                             <i class="bi bi-check-circle-fill me-2"></i> {{ session('result') }}
                         </p>
                     @else
-                        <p class="text-muted"><i class="bi bi-hourglass-split"></i> Esperando cálculo...</p>
+                        <p class="form-label text-light"><i class="bi bi-hourglass-split"></i> Esperando cálculo...</p>
                     @endif
                 </div>
             </div>
