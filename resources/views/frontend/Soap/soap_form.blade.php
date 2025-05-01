@@ -5,17 +5,14 @@
     <title>Calculadora SOAP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap desde CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-
-    <!-- Bootstrap Icons desde CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-    <!-- Animate desde CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 </head>
 <body>
-
 <div class="container py-5">
     <div class="row justify-content-center g-4">
         <!-- Formulario -->
@@ -28,15 +25,15 @@
                     <form method="post" action="/soap">
                         @csrf
                         <div class="mb-3">
-                            <label for="num1" class="form-label text-info">Primer numero:</label>
+                            <label for="num1" class="form-label text-light">Primer numero</label>
                             <input type="number" class="form-control form-control-lg" name="num1" required>
                         </div>
                         <div class="mb-3">
-                            <label for="num2" class="form-label text-info">Segundo numero:</label>
+                            <label for="num2" class="form-label text-light">Segundo Numero</label>
                             <input type="number" class="form-control form-control-lg" name="num2" required>
                         </div>
                         <div class="mb-4">
-                            <label for="operation" class="form-label text-info">Operación</label>
+                            <label for="operation" class="form-label text-light">Operación</label>
                             <select class="form-select form-select-lg" name="operation" required>
                                 <option value="" disabled selected>Selecciona una operación</option>
                                 <option value="Add">Sumar</option>
@@ -64,7 +61,7 @@
                             <i class="bi bi-check-circle-fill me-2"></i> {{ session('result') }}
                         </p>
                     @else
-                    <p class="text-light"><i class="bi bi-hourglass-split"></i> Esperando cálculo...</p>
+                        <p class="form-label text-light"><i class="bi bi-hourglass-split"></i> Esperando cálculo...</p>
                     @endif
                 </div>
             </div>
@@ -90,6 +87,25 @@
         transform: scale(1.01);
     }
 </style>
+<style>
+    body {
+        min-height: 100vh;
+        background: linear-gradient(135deg, #1f1c2c, #928DAB);
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+    }
+
+    .card {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+        transition: transform 0.2s;
+    }
+
+    .card:hover {
+        transform: scale(1.01);
+    }
+</style>
+
 
 </body>
 </html>

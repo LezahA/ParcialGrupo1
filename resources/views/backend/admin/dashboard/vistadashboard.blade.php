@@ -28,13 +28,13 @@
         </div>
         <div class="card-body p-4">
             <p class="lead text-muted mb-3">
-                A continuación, se detallan los puntos resueltos conforme a los requerimientos técnicos propuestos en el examen.
+                A continuación, se detallan los puntos resueltos conforme a los requerimientos propuestos en el examen:
             </p>
             <div class="mb-3">
                 <h4 class="text-primary"><i class="fas fa-file-code"></i> 1. Lectura de XML y Conversión a JSON</h4>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class="fas fa-folder"></i> Se agregó un archivo XML en la carpeta <code>storage/xml</code>. Si no existía, se creó manualmente.</li>
-                    <li class="list-group-item"><i class="fas fa-random"></i> Se desarrolló una ruta en Laravel que lee y convierte el XML a JSON usando.</li>
+                    <li class="list-group-item"><i class="fas fa-folder"></i> Se creo la carpeta y se agregó un archivo XML en la carpeta <code>storage/xml</code>.</li>
+                    <li class="list-group-item"><i class="fas fa-random"></i> Se desarrolló una ruta en Laravel que lee y convierte el XML a JSON.</li>
                     <li class="list-group-item"><i class="fas fa-table"></i> El resultado se muestra en la vista, con una tabla en Bootstrap.</li>
                 </ul>
             </div>
@@ -61,5 +61,5 @@
                 </ul>
             </div>
         </div>
-    @section('archivos-js')
-    @stop
+@section('archivos-js')
+@stop
