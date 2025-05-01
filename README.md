@@ -87,11 +87,6 @@ Esto insertará los usuarios en la tabla `users`, los usuarios creados son:
   - Usuario: `usuario`
   - Contraseña: `1234`
 
-Una vez realizado este paso, puedes acceder al proyecto desde la web usando los siguientes datos de login:
-
-- **Administrador:** Usuario: `admin`, Contraseña: `1234`
-
-- **Usuario normal:** Usuario: `usuario`, Contraseña: `1234`
 ---
 
 ▶️ **Paso 6: Iniciar el servidor**
@@ -101,6 +96,11 @@ Una vez instaladas las dependencias, se puede iniciar el servidor ejecutando el 
 ```bash
 php artisan serve
 ```
+
+Por lo que ahora ya puedes acceder al proyecto desde la web usando los siguientes datos de login:
+
+- **Usuario normal:** Usuario: `usuario`, Contraseña: `1234`
+  
 ---
 
 
