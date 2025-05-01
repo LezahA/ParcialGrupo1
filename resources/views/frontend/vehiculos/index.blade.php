@@ -18,7 +18,7 @@
             <!-- Encabezado -->
             <div class="text-center mb-4">
                 <h1 class="fw-bold display-5 animate__animated animate__fadeInDown"> 🚗 Catálogo de Vehículos 2025</h1>
-                <p class="text-secondary animate__animated animate__fadeInUp">Consulta todos los vehículos disponibles</p>
+                <p class="lead text-secondary animate__animated animate__fadeInUp">Consulta todos los vehículos disponibles</p>
             </div>
 
             <!-- Tabla -->
