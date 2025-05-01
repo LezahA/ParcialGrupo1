@@ -43,16 +43,7 @@ A continuación, se deben instalar las dependencias de Node.js ejecutando:
 npm install
 ```
 ---
-▶️ **Paso 4: Iniciar el servidor**
-
-Una vez instaladas las dependencias, se puede iniciar el servidor ejecutando el siguiente comando:
-
-```bash
-php artisan serve
-```
----
-
-🛢️ **Paso 5: Migrar la base de datos**
+🛢️ **Paso 4: Migrar la base de datos**
 
 Es necesario crear una base de datos llamada `laravel` en MySQL. Para ello, se puede ejecutar el siguiente comando:
 
@@ -77,7 +68,8 @@ DB_PASSWORD= [ingrese la contraseña de su gestor de base de datos]
 Si se tiene contraseña, agrégala después de DB_PASSWORD= 
 
 ---
-🔄 **Paso 6: Llenar la base de datos con usuarios**
+
+🔄 **Paso 5: Llenar la base de datos con usuarios**
 
 Después de migrar las tablas, es necesario llenar la tabla de usuarios con datos de ejemplo. Para ello, se debe ejecutar el siguiente comando para correr los seeders:
 
@@ -101,6 +93,17 @@ Una vez realizado este paso, puedes acceder al proyecto desde la web usando los 
 
 - **Usuario normal:** Usuario: `usuario`, Contraseña: `1234`
 ---
+
+▶️ **Paso 6: Iniciar el servidor**
+
+Una vez instaladas las dependencias, se puede iniciar el servidor ejecutando el siguiente comando:
+
+```bash
+php artisan serve
+```
+---
+
+
 
 
 ## 👥 Integrantes del Grupo
