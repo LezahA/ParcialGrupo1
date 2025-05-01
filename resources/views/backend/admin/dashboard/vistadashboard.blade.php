@@ -34,7 +34,8 @@
                 <h4 class="text-primary"><i class="fas fa-file-code"></i> 1. Lectura de XML y Conversión a JSON</h4>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><i class="fas fa-folder"></i> Se creo la carpeta y se agregó un archivo XML en la carpeta <code>storage/xml</code>.</li>
-                    <li class="list-group-item"><i class="fas fa-random"></i> Se desarrolló una ruta en Laravel que lee y convierte el XML a JSON.</li>
+                    <li class="list-group-item"><i class="fas fa-random"></i> Se creo un controlador que lee los vehiculos desde un archivo XML y los envia a una
+                    vista con formato JSON</li>
                     <li class="list-group-item"><i class="fas fa-table"></i> El resultado se muestra en la vista, con una tabla en Bootstrap.</li>
                 </ul>
             </div>
