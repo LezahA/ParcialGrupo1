@@ -24,7 +24,7 @@
     <div class="card border-0 shadow-lg">
     <div class="card-header text-white text-center py-3">
             <h3 class="mb-0"><i class="fas fa-code"></i> Resolución del Examen Parcial 2</h3>
-            <small>Materia: Desarrollo y Técnicas Web</small>
+            <small>Materia: Desarrollo y Técnicas de Aplicaciones Web</small>
         </div>
         <div class="card-body p-4">
             <p class="lead text-muted mb-3">
@@ -35,7 +35,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><i class="fas fa-folder"></i> Se creo la carpeta y se agregó un archivo XML en la carpeta <code>storage/xml</code>.</li>
                     <li class="list-group-item"><i class="fas fa-random"></i> Se creo un controlador que lee los vehiculos desde un archivo XML y los envia a una
-                    vista con formato JSON</li>
+                    vista con formato JSON.</li>
                     <li class="list-group-item"><i class="fas fa-table"></i> El resultado se muestra en la vista, con una tabla en Bootstrap.</li>
                 </ul>
             </div>
